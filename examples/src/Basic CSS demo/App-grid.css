@@ -1,0 +1,44 @@
+.background {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  min-height: 98dvh;
+    min-width: 98dvw;
+}
+
+.header {
+  background-color: blue;
+  grid-column: 13 / 16;
+  grid-row: 1;
+  display: flex;
+  justify-content: stretch;
+}
+
+.header div {
+  background-color: blanchedalmond;
+  margin: 0.5rem;
+  margin-block-end: 0;
+}
+
+.main-content {
+  background-color: slategray;
+}
+
+.left-menu {
+}
+
+.left-menu div {
+  background-color: bisque;
+}
+
+.content-container {
+  background-color: slateblue;
+}
+
+.indicator {
+  background-color: aqua;
+}
+
+.interactive-stuff {
+  background-color: aqua;
+}

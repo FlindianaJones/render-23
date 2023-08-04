@@ -1,0 +1,88 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  min-height: 98dvh;
+  min-width: 98dvw;
+  justify-content: space-between;
+  container-type: inline-size;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  min-width: 100cqw;
+  min-height: 10cqh;
+  justify-content:flex-end;
+  background-color: blue;
+  padding-block-start: 1rem;
+}
+
+.header div {
+  background-color: blanchedalmond;
+  min-width: 4rem;
+  min-height: 4rem;
+  margin-inline-end: 0.5rem;
+  border: 1px solid black;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: slategray;
+  height: 89cqh;
+  width: 100cqw;
+  container-type: inline-size;
+}
+
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 10cqw;
+  min-height: 100cqh;
+  align-items: flex-end;
+  padding-block-start: 1rem;
+}
+
+.left-menu div {
+  background-color: bisque;
+  margin-block-end: 1rem;
+  padding-inline-start: 1rem;
+  min-width: 4rem;
+    min-height: 4rem;
+    border: 1px solid black;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 90cqw;
+  min-height: 100cqh;
+  align-items: center;
+  background-color: slateblue;
+  container-type: inline-size;
+}
+
+.indicator {
+  background-color: aqua;
+  border: 1px solid black;
+  max-height: 10cqh;
+  margin-block-end: 1rem;
+}
+
+.interactive-stuff {
+  background-color: aqua;
+  border: 1px solid black;
+  padding: 1rem;
+  min-width: 95cqw;
+  min-height: 90cqh;
+}
+
+.interactive-stuff textarea {
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
