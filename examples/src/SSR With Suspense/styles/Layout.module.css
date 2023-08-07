@@ -1,0 +1,8 @@
+.gridContainer {
+  min-width: 100dvw;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: 100px auto;
+  grid-template-columns: 25% 50% 25%;
+  background-color: aliceblue;
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
 import Root from './root';
 import BasicCSS from './Basic CSS demo/BasicCSS';
 import StyledComponents from './Styled Components Demo/StyledComponents';
+import SSRWithSuspense from './SSR With Suspense/components/Layout'
 import './index.css'
 
 const root = ReactDOM.createRoot(
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/ssr-with-suspense',
-    element: <span>coming soon!</span>
+    element: <SSRWithSuspense />
   }
 ])
 
